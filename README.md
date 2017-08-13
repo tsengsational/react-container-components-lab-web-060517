@@ -11,7 +11,7 @@ In this lab, we will practice building container components. By the end of the l
 Movie critics can be harsh, but it's a blast to read what they write. For this lab, imagine that you've been hired to work on a web application devoted to movie reviews. The app will draw its review content from the _New York Times_, which has provided a public, queryable API for their content.
 
 For your part, you've been asked to produce two container components that will wrap a single presentation component, `<MovieReviews>`, which lists a series of movie reviews on the page.
-
+ 
 The two container components you've been asked to create will use this single presentational component in different ways. The first, `<LatestMovieReviewsContainer>`, will fetch a list of the most recent reviews and display them. The second, `<SearchableMovieReviewsContainer>`, will provide a searchable interface allowing the user to enter a search term and then receive a list of reviews that match the search term(s).
 
 You can tackle these components in whatever order you wish, but it might make sense to start with the more static (and thus simpler) `<LatestMovieReviewsContainer>`. As with other labs, you can use the tests as a specification for the components, but here are the main points that you should follow as you work:
